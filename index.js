@@ -1,3 +1,4 @@
+// const express = require("express");
 import express from "express";
 import {nanoid} from "nanoid";
 import fs from "node:fs";
@@ -7,7 +8,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const app = express();
-const PORT = 4000;
+const PORT = 10000;
 
 // app.use(cors({
 //     origin: "http://127.0.0.1:5500"
